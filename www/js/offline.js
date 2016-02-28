@@ -22,3 +22,5 @@ function checkConnection() {
 }
 
 setInterval(checkConnection, 1000);
+
+window.open = cordova.InAppBrowser.open;

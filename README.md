@@ -14,3 +14,4 @@ The system has a few extras that make it okay to submit to the iOS App Store suc
 - Edit the href for the forgot password link in index.html
 - Put custom styles in css/styles.css
 - Edit the config.xml to describe the app for Phonegap Build
+- Add your website to the allow-internet area of the config.xml file

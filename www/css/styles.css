@@ -1,1 +1,145 @@
-/* Custom Styles */
+.navbar-static-top {
+  margin-bottom:20px;
+}
+
+i {
+  font-size:18px;
+}
+.navbar-header img{ height:50px;margin-top: -15px;}
+footer {
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:left;
+}
+footer img{float: right;}
+
+.nav>li .count {
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  font-size: 10px;
+  font-weight: normal;
+  background: rgba(41,200,41,0.75);
+  color: rgb(255,255,255);
+  line-height: 1em;
+  padding: 2px 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.danger{
+    background-color: red; 
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.good{
+    background-color: limegreen; 
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.loginFooter{
+    height: 30px;
+}
+.navbar{
+    background-color: #333;
+    border-bottom: 2px ridge #8E1208;
+}
+a:hover{color:#CB4332;}
+a{color:#9B0103;}
+
+.checkbox input[type=checkbox]{
+    margin-left:0;
+}
+
+.error{
+    border: solid red 1px;
+}
+.error-message{
+    color:red;
+    font-weight:900;
+}
+
+#loadingImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0px 0px -50px;
+    z-index: 99999;
+}
+
+#blackout{
+	bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background:rgba(0,0,0,.8);
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.quickLinks a{
+    color:#fff;
+    background-color:#333333;
+    
+}
+
+
+.quickLinks a:hover{
+    color:#9B0103;
+}
+
+.quickLinks i{
+    color:#9B0103;
+}
+    
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-top: none;
+}
+.timecard{
+    border-top: solid 1px #ddd;
+}
+.today{
+    color:#9B0103;
+}
+.totalHours{
+    font-size: 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #c55c00;
+    border-color: #e0a877;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #4d4c4b;
+    border-color: #e0a877;
+}
+
+
+
+
+
+
