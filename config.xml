@@ -2,7 +2,7 @@
   <name>Solar Sales Tracker</name>
   <description>Hello World sample application that responds to the deviceready event.</description>
   <author href="http://joeldare.com" email="joel@joeldare.com">Joel Dare</author>
-  <content src="www/index.html"/>
+  <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
